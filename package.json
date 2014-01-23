@@ -1,5 +1,5 @@
 {
-  "name": "adapt-grunt-trackingIds",
+  "name": "adapt-grunt-tracking-ids",
   "description": "Automates the insertion of SCORM tracking IDs.",
   "version": "0.1.0",
   "homepage": "https://github.com/kevadsett/adapt-grunt-trackingIds",
