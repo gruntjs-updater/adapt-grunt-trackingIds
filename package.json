@@ -1,0 +1,39 @@
+{
+  "name": "adapt-grunt-trackingIds",
+  "description": "Automates the insertion of SCORM tracking IDs.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kevadsett/adapt-grunt-trackingIds",
+  "author": {
+    "name": "Kev Adsett",
+    "email": "kev.adsett@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevadsett/adapt-grunt-trackingIds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevadsett/adapt-grunt-trackingIds/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kevadsett/adapt-grunt-trackingIds/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
