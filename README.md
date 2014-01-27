@@ -28,8 +28,8 @@ In your project's Gruntfile, add a section with each of these names to the data 
 grunt.initConfig({
   adapt_insert_tracking_ids: {
     options: {
-        courseFile: "course/en/course.json",
-        blocksFile: "course/en/blocks.json"
+        courseFile: "src/course/en/course.json",
+        blocksFile: "src/course/en/blocks.json"
     }
   },
 })
@@ -39,12 +39,12 @@ grunt.initConfig({
 
 #### options.courseFile
 Type: `String`
-Default value: `'course/en/course.json'`
+Default value: `'src/course/en/course.json'`
 
 A string representation of the JSON file which contains the course information.
 
 #### options.blocksFile
 Type: `String`
-Default value: `'course/en/course.json'`
+Default value: `'src/course/en/course.json'`
 
 A string representation of the JSON file which contains the blocks for the course.
