@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         });
         
         function insertTrackingIds(blocks, course){
-            options.latestTrackingId = course.latestTrackingId || -1;
+            options._latestTrackingId = course._latestTrackingId || -1;
             
             for(var i = 0; i < blocks.length; i++) {
                 var block = blocks[i];
